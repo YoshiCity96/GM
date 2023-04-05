@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="49" viewBox="0 0 200 49">
+  <g id="Сгруппировать_161" data-name="Сгруппировать 161" transform="translate(-843 -841)">
+    <path id="Многоугольник_2" data-name="Многоугольник 2" d="M20.5,0,41,36H0Z" transform="translate(853 841)" fill="#fff"/>
+    <g id="Сгруппировать_160" data-name="Сгруппировать 160" transform="translate(843 858)">
+      <rect id="Прямоугольник_97" data-name="Прямоугольник 97" width="200" height="32" fill="#fff"/>
+      <g id="Сгруппировать_164" data-name="Сгруппировать 164" transform="translate(16 5.822)">
+        <text id="Заполните_это_поле." data-name="Заполните это поле." transform="translate(31 16.178)" fill="#0b0b0b" font-size="15" font-family="HelveticaNeueCyr-Light, HelveticaNeueCyr" font-weight="300"><tspan x="0" y="0">Заполните это поле.</tspan></text>
+        <g id="Сгруппировать_162" data-name="Сгруппировать 162">
+          <g id="Сгруппировать_163" data-name="Сгруппировать 163">
+            <text id="_" data-name="!" transform="translate(9 15.178)" fill="#0b0b0b" font-size="13" font-family="HelveticaNeueCyr-Light, HelveticaNeueCyr" font-weight="300"><tspan x="0" y="0">!</tspan></text>
+            <g id="Прямоугольник_98" data-name="Прямоугольник 98" transform="translate(0 0.178)" fill="none" stroke="#0b0b0b" stroke-width="1">
+              <rect width="21" height="21" stroke="none"/>
+              <rect x="0.5" y="0.5" width="20" height="20" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
