@@ -3121,7 +3121,8 @@ body {
   }
 
   .services__items {
-    padding: 50px 15px;
+    row-gap: 5px;
+    padding: 50px 0px;
   }
 
   .services__item p {
@@ -3233,6 +3234,17 @@ body {
 
   .footer__social {
     margin: 50px 0 0 0;
+  }
+
+  .container {
+    max-width: none;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services__item p {
+    left: 15%;
   }
 }
 
