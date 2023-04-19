@@ -2611,11 +2611,11 @@ body {
 .services__back {
   -webkit-transform: perspective(600px) rotateY(180deg);
           transform: perspective(600px) rotateY(180deg);
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(21, 20, 20);
 }
 
 .services__back-content {
-  margin: 10% 0 0 0;
+  margin: 10px 0 0 0;
   padding: 20px;
   width: 100%;
   text-align: center;
@@ -2684,10 +2684,15 @@ body {
 }
 
 .about__text {
+  line-height: 25px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   text-align: center;
+}
+
+.about__text span {
+  color: red;
 }
 
 .portfolio {
@@ -2713,10 +2718,6 @@ body {
 
 .portfolio__gallery_none {
   display: none;
-}
-
-.portfolio__gallery a {
-  border: white solid 1px;
 }
 
 .portfolio__gallery a:hover img {
@@ -3107,7 +3108,7 @@ body {
   }
 
   .services__title {
-    font-size: calc(27px + 13 * (100vw / 1920));
+    font-size: calc(32px + 8 * (100vw / 1920));
   }
 
   .services__front p {
@@ -3123,23 +3124,23 @@ body {
   }
 
   .about__title {
-    font-size: calc(27px + 13 * (100vw / 1920));
+    font-size: calc(32px + 8 * (100vw / 1920));
   }
 
   .about__text {
-    font-size: calc(12px + 8 * (100vw / 1920));
+    font-size: calc(15px + 8 * (100vw / 1920));
   }
 
   .portfolio__title {
-    font-size: calc(27px + 13 * (100vw / 1920));
+    font-size: calc(32px + 8 * (100vw / 1920));
   }
 
   .reviews__title {
-    font-size: calc(27px + 13 * (100vw / 1920));
+    font-size: calc(32px + 8 * (100vw / 1920));
   }
 
   .map__title {
-    font-size: calc(27px + 13 * (100vw / 1920));
+    font-size: calc(32px + 8 * (100vw / 1920));
   }
 
   .map__button_ya {
@@ -3346,7 +3347,7 @@ body {
   }
 
   .services__title {
-    font-size: calc(27px + 22.1 * ((100vw - 320px) / 1920));
+    font-size: calc(32px + 13.6 * ((100vw - 320px) / 1920));
   }
 
   .services__items {
@@ -3367,7 +3368,7 @@ body {
   }
 
   .about__title {
-    font-size: calc(27px + 22.1 * ((100vw - 320px) / 1920));
+    font-size: calc(32px + 13.6 * ((100vw - 320px) / 1920));
   }
 
   .about__items {
@@ -3376,7 +3377,7 @@ body {
   }
 
   .about__text {
-    font-size: calc(12px + 13.6 * ((100vw - 320px) / 1920));
+    font-size: calc(15px + 13.6 * ((100vw - 320px) / 1920));
   }
 
   .about__text {
@@ -3384,7 +3385,7 @@ body {
   }
 
   .portfolio__title {
-    font-size: calc(27px + 22.1 * ((100vw - 320px) / 1920));
+    font-size: calc(32px + 13.6 * ((100vw - 320px) / 1920));
   }
 
   .portfolio__gallery {
@@ -3395,11 +3396,11 @@ body {
   }
 
   .reviews__title {
-    font-size: calc(27px + 22.1 * ((100vw - 320px) / 1920));
+    font-size: calc(32px + 13.6 * ((100vw - 320px) / 1920));
   }
 
   .map__title {
-    font-size: calc(27px + 22.1 * ((100vw - 320px) / 1920));
+    font-size: calc(32px + 13.6 * ((100vw - 320px) / 1920));
   }
 
   .map__button_ya {
