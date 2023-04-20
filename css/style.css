@@ -2508,16 +2508,15 @@ body.lock {
   background: url("../img/EtB74iUj2YI_obrabotano.jpg") center/cover no-repeat; }
 
 .home {
-  max-width: 1920px;
   margin: 0 auto;
-  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 100vh;
 }
 
 .home__body {
-  width: 100%;
+  max-width: 1920px;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -2534,7 +2533,7 @@ body.lock {
 }
 
 .home__title {
-  margin: 0 0 0 15%;
+  margin: 50px 0 0 15%;
   padding: 10px;
   color: white;
   font-weight: 500;
@@ -2546,7 +2545,7 @@ body.lock {
   color: red;
 }
 
-.home__title p:first-child {
+.home__title h1 {
   padding: 0 0 10px 0;
 }
 
@@ -2623,7 +2622,7 @@ body.lock {
   padding: 20px;
   width: 100%;
   text-align: center;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 .services__back-content span {
@@ -3156,7 +3155,7 @@ body.lock {
     font-size: calc(15px + 8 * (100vw / 1920));
   }
 
-  .home__title p:first-child {
+  .home__title h1 {
     font-size: calc(18px + 12 * (100vw / 1920));
   }
 
@@ -3169,11 +3168,11 @@ body.lock {
   }
 
   .services__back-content h3 {
-    font-size: calc(27px + 3 * (100vw / 1920));
+    font-size: calc(25px + 3 * (100vw / 1920));
   }
 
   .services__back-content p {
-    font-size: calc(21px + 2 * (100vw / 1920));
+    font-size: calc(18px + 3 * (100vw / 1920));
   }
 
   .about__title {
@@ -3395,7 +3394,11 @@ body.lock {
     font-size: calc(15px + 13.6 * ((100vw - 320px) / 1920));
   }
 
-  .home__title p:first-child {
+  .home__title {
+    margin: 50px auto 0 auto;
+  }
+
+  .home__title h1 {
     font-size: calc(18px + 20.4 * ((100vw - 320px) / 1920));
   }
 
@@ -3404,7 +3407,6 @@ body.lock {
   }
 
   .services__items {
-    row-gap: 5px;
     padding: 50px 0px;
   }
 
@@ -3413,11 +3415,11 @@ body.lock {
   }
 
   .services__back-content h3 {
-    font-size: calc(27px + 5.1 * ((100vw - 320px) / 1920));
+    font-size: calc(25px + 5.1 * ((100vw - 320px) / 1920));
   }
 
   .services__back-content p {
-    font-size: calc(21px + 3.4 * ((100vw - 320px) / 1920));
+    font-size: calc(18px + 5.1 * ((100vw - 320px) / 1920));
   }
 
   .about__title {
